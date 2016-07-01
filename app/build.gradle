@@ -23,6 +23,11 @@ model {
     }
     android.ndk {
         moduleName = "jniLib"
+        ldLibs.addAll(['log'])
+        cppFlags.add("-std=c++11")
+        cppFlags.add("-fexceptions")
+        platformVersion 15
+        stl 'gnustl_shared'
     }
 }
 
