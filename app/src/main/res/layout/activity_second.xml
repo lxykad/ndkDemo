@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lxy.ndk.MainActivity">
+    tools:context="com.lxy.ndk.SecondActivity">
 
-    <Button
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="goSecond"
-        android:text="go" />
+        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>
