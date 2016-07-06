@@ -3,14 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lxy.ndk.SecondActivity">
+    tools:context=".J2CActivity">
 
     <TextView
+        android:text="666"
         android:id="@+id/tv2"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <TextView
+        android:onClick="goC2J"
+        android:padding="15dp"
+        android:layout_below="@+id/tv2"
+        android:text="GOc2j"
+        android:id="@+id/tv3"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 
 
 </RelativeLayout>

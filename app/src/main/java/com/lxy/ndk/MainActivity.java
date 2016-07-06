@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public native String get();
 
     public void goSecond(View view){
-        Intent intent = new Intent(this,SecondActivity.class);
+        Intent intent = new Intent(this,J2CActivity.class);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         }else {
