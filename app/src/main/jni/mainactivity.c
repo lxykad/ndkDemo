@@ -74,3 +74,10 @@ Java_com_lxy_ndk_J2CActivity_getInt(JNIEnv *env, jobject instance, jintArray arr
 
     (*env)->ReleaseIntArrayElements(env, arr_, arr, 0);
 }
+
+JNIEXPORT void JNICALL
+Java_com_lxy_ndk_MainActivity_test(JNIEnv *env, jobject instance) {
+
+    // TODO
+
+}

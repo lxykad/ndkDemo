@@ -22,7 +22,7 @@ model {
         }
     }
     android.ndk {
-        moduleName = "jniLib"
+        moduleName = "jniLib"//编译的.so的模组名称,就是原先Eclipse开发里Android.mk文件中LOCAL_MODULE变量,System.loadLibrary()加载.so时的名称对应
         ldLibs.addAll(['log'])
         cppFlags.add("-std=c++11")
         cppFlags.add("-fexceptions")
